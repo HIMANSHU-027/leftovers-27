@@ -1,0 +1,228 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* text-transform: capitali; */
+  background-color: whitesmoke;
+  /* font-family: Comic Sans MS; */
+}
+
+#logo img {
+  width: 50px;
+  height: 50px;
+}
+.hblock {
+  align-items: center;
+  justify-content: center;
+}
+
+.nblock {
+  align-items: center;
+  display: flex;
+  background-color: #373737;
+  justify-content: space-around;
+}
+
+.lblock {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lblock a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+#addy1{
+  display: flex;
+  text-align:center; color:rgb(158, 22, 44);
+  flex-direction: column;
+}
+
+#addy2{
+  display: flex;
+   text-align:center; color:rgb(5, 109, 150);
+   flex-direction: column;
+}
+
+#search {
+  display: flex;
+  color: white;
+  border-radius: 10px;
+}
+#search input:hover {
+  box-shadow: 0px 0px 5px 0px whitesmoke;
+}
+#search input {
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  /* background-color: black; */
+  margin-left: 5px;
+  border-radius: 15px;
+}
+/* ############################################################################### */
+.contaner {
+  margin-top: 50px;
+  width: 60vw;
+  justify-content: space-between;
+  display: flex;
+}
+.himg img {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  box-shadow: 0px 0px 30px 0px #373737;
+  height: 70vh;
+}
+
+/* .gdimg img {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  box-shadow: 0px 0px 30px 0px #373737;
+  height: 70vh;
+}
+
+.dimg img {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  box-shadow: 0px 0px 30px 0px #373737;
+  height: 70vh;
+}
+
+.gimg img {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  box-shadow: 0px 0px 30px 0px #373737;
+  height: 70vh;
+} */
+
+.tcontant {
+  margin: 0;
+  padding: 0;
+  /* width: 100vw; */
+  /* text-align: left; */
+}
+
+.tcontant p {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 40px;
+}
+
+.tcontant h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+/* ######################################################################## */
+.foot {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #373737;
+}
+.fblock a {
+  /* font-family: ; */
+  text-decoration: none;
+  color: whitesmoke;
+}
+#first {
+  text-align: center;
+}
+
+#second {
+  margin: auto;
+  width: 90vw;
+  text-align: center;
+}
+#second address {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#second p {
+  display: inline;
+}
+#three {
+  margin: auto;
+  width: 70vw;
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footerlinks{
+  text-align: center;
+}
+
+/* TABLE STARTING HERE  */
+
+.tableb {
+  box-shadow: 0px 0px 10px 10px black;
+  margin-top: 580px;
+}
+.tableb h1 {
+  margin-bottom: 0px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+table {
+  margin-top: 0px;
+  font-size: 1.5rem;
+  transition-delay: 1s;
+  width: 100%;
+  background-color: transparent;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  border: 2px solid white;
+}
+
+th {
+  background-color: #0f5976ad;
+  color: white;
+  border-radius: 1px;
+  border-right: 2px solid white;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+td {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  transition: 1s;
+  padding: 15px;
+  transition-delay: 0.0002s;
+}
+td:hover {
+  border-top: 1px solid black;
+  border-radius: 15px;
+  border-bottom: 2px solid white;
+  box-shadow: 5px 3px 4px 0px rgb(114, 12, 12);
+}
+
+#top {
+  border-bottom: 2px solid white;
+}
+
+/* TABLE ENDING HERE  */
