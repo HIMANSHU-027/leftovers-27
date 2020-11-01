@@ -16,25 +16,37 @@
   box-shadow: 0px 0px 5px 0px black;
 }
 .ttable {
-  margin-top: 20px;
+  margin: 20px 0px 0px 10px;
   position: absolute;
   text-align: center;
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 35vw;
   transition: all 0.2s ease-in-out;
   height: 40vh;
+  border-radius: 10px;
 }
 .ttable img {
+  border-radius: 10px;
+  border: 2px solid black;
   width: 30vw;
   height: 40wh;
+}
+.ttable a {
+  text-decoration: none;
+  margin: 5px;
+  font-size: 1.5rem;
+  color: black;
 }
 
 @media screen and (max-width: 450px) {
   .boxes {
-    height: 20vh;
+    height: 30vh;
   }
   .ttable {
     height: 15vh;
+  }
+  .ttable a {
+    font-size: 1rem;
   }
 }
