@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contaner {
+  width: 95vw;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.heading {
+  margin: 20px 0px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: brown;
+}
+.gallary {
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.photo:hover {
+  box-shadow: 0px 0px 5px 2px black;
+}
+.photo {
+  transition: all 0.2s ease-out;
+}
+.frist {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 70vh;
+}
+.frist img {
+  margin: 5;
+  width: 15vw;
+  height: 40vh;
+  border-radius: 8px;
+}
+.second {
+  border-radius: 8px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 70vh;
+}
+.second img {
+  margin: 5;
+  width: 15vw;
+  border-radius: 8px;
+  height: 40vh;
+}
+.three {
+  border-radius: 8px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 70vh;
+}
+.three img {
+  width: 15vw;
+  border-radius: 8px;
+  height: 40vh;
+}
+.four {
+  border-radius: 8px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 70vh;
+}
+.four img {
+  width: 15vw;
+  height: 40vh;
+  border-radius: 8px;
+}
+
+.name {
+  font-size: 1.5rem;
+  margin: 20px;
+  font-family: cursive;
+}
+
+.text {
+  margin: 50px 0px;
+}

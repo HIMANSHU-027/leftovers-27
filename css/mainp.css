@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  position: relative;
+  height: 10vh;
+  cursor: pointer;
+}
+#logo img {
+}
+.bargar {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  transform: translate(-30%, -10%);
+  z-index: 1;
+}
+.line {
+  width: 30px;
+  height: 3px;
+  margin: 4px;
+  background: white;
+  /* display: none; */
+}
+
+.lblock a {
+  color: black;
+}
+.lblock {
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  clip-path: circle(100px at -90% -25%);
+  -webkit-clip-path: circle(100px at 90% -20%);
+  transition: all 1s ease-out;
+  width: 100vw;
+  height: 100vh;
+  background: gray;
+}
+.lblock.open {
+  clip-path: circle(1000px at -90% -25%);
+  -webkit-clip-path: circle(1000px at 90% -20%);
+}
+#search {
+  display: none;
+}
+#first {
+  font-size: 2.5rem;
+  text-align: center;
+}
+#contact {
+  padding: 5;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#contact p {
+  margin: 10px;
+}

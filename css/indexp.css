@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.boxes {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.ttable:hover {
+  box-shadow: 0px 0px 5px 0px black;
+}
+.ttable {
+  margin-top: 20px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  transition: all 0.2s ease-in-out;
+  height: 40vh;
+}
+.ttable img {
+  width: 30vw;
+  height: 40wh;
+}
+
+@media screen and (max-width: 450px) {
+  .boxes {
+    height: 20vh;
+  }
+  .ttable {
+    height: 15vh;
+  }
+}
