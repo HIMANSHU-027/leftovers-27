@@ -58,7 +58,7 @@ p::selection {
 }
 #search {
   display: flex;
-  color: white;
+  color: black;
   border-radius: 10px;
 }
 #search input:hover {
@@ -67,7 +67,7 @@ p::selection {
 #search input {
   text-align: center;
   border: 2px solid white;
-  color: white;
+  color: black;
   /* background-color: black; */
   margin-left: 5px;
   border-radius: 15px;
@@ -79,14 +79,7 @@ p::selection {
   justify-content: space-between;
   display: flex;
 }
-.himg img {
-  width: 30%;
-  position: absolute;
-  top: 20%;
-  left: 65%;
-  box-shadow: 0px 0px 30px 0px #373737;
-  height: 70vh;
-}
+
 .tcontant {
   margin: 0;
   padding: 0;
@@ -109,7 +102,7 @@ p::selection {
 .foot {
   display: flex;
   color: white;
-  margin-top: 250px;
+  margin-top: 5px;
   flex-direction: column;
   justify-content: space-around;
   background-color: #373737;
