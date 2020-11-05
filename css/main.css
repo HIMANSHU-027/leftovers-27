@@ -13,7 +13,8 @@ body {
 body {
   padding: 0;
   margin: 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+  font-family: 'Ubuntu', sans-serif;
   background-color: whitesmoke;
 }
 p::selection {
@@ -118,8 +119,9 @@ p::selection {
   text-align: center;
 }
 #first {
+  /* font-family: OCR A Std, monospace; */
   font-size: 4.5rem;
-  background: linear-gradient(to left, black, white, blue);
+  background: linear-gradient(to left, #e0ac1c, #e0ac1c , #e0ac1c); /*(Change by 0001)*/
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -154,3 +156,34 @@ p::selection {
 .fa:hover {
   opacity: 0.7;
 }
+
+/* 5 Nov I ADDED SOME CLASSES (Change by 0001)   */
+
+.footerlinks{
+  text-align: center;
+  /* color: antiquewhite; */
+}
+
+ /* a:link {
+  color: silver;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ a:visited {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ a:active {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+} */
