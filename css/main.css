@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0;
   /* text-transform: capitalize; */
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   background-color: whitesmoke;
 }
 p::selection {
@@ -36,7 +36,7 @@ p::selection {
   display: flex;
   height: 10vh;
   align-items: center;
-  background-color: #373737;
+  background-color: #0e021a;
   justify-content: space-around;
 }
 
@@ -106,7 +106,7 @@ p::selection {
   margin-top: 5px;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #373737;
+  background-color: #0e021a;
 }
 .fblock a {
   text-decoration: none;
@@ -121,7 +121,12 @@ p::selection {
 #first {
   /* font-family: OCR A Std, monospace; */
   font-size: 4.5rem;
-  background: linear-gradient(to left, #e0ac1c, #e0ac1c , #e0ac1c); /*(Change by 0001)*/
+  background: linear-gradient(
+    to left,
+    #e0ac1c,
+    #e0ac1c,
+    #e0ac1c
+  ); /*(Change by 0001)*/
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -159,12 +164,12 @@ p::selection {
 
 /* 5 Nov I ADDED SOME CLASSES (Change by 0001)   */
 
-.footerlinks{
+.footerlinks {
   text-align: center;
   /* color: antiquewhite; */
 }
 
- /* a:link {
+/* a:link {
   color: silver;
   background-color: transparent;
   text-decoration: none;
